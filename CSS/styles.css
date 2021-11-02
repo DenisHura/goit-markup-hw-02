@@ -9,6 +9,7 @@
   --accent-color: #2196f3;
   --logo-color: #000000;
   --primary-white: #ffffff;
+  --button-hover-color:#188CE8;
 }
 body {
   color: var(--primary-text-color);
@@ -107,6 +108,11 @@ body {
   color: var(--primary-white);
   background-color: var(--accent-color);
 }
+
+.button .primary-button:hover,
+.button .primary-button:focus {
+    background-color: var(--button-hover-color);
+
 
 /* Преимущества */
 
