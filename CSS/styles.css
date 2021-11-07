@@ -64,7 +64,7 @@ body {
 }
 
 /* Баннер */
-.main-title {
+.hero-title {
   color: var(--primary-white);
   font-weight: 900;
   font-size: 44px;
@@ -75,12 +75,12 @@ body {
 }
 
 /* сделал временно, чисто для того, чтобы было видно текст */
-.section-ban {
+.hero {
   background-color: #2f303a;
 }
 
 /* Кнопки */
-.button button {
+.button {
   cursor: pointer;
 }
 
